@@ -4,10 +4,11 @@ import { Button, Stack, Typography } from '@mui/material';
 
 
 import './style.scss';
+import { BorderTop } from '@mui/icons-material';
 
 const ExerciseCard = ({ exercise }) => {
     return (
-        <Link to={`/exercise/${exercise.id}`}>
+        <Link to={`/exercise/${exercise.id}`} className='exerciseCard'>
             <img src={exercise.gifUrl} alt={exercise.name} loading='lazy'></img>
             <Stack direction="row">
                 <Button sx={{ ml: '21px', color: '#fff', background: '#ffa9a9', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>

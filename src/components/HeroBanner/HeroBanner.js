@@ -11,13 +11,13 @@ const HeroBanner = () => {
             <Typography color="#1976D2" fontWeight="600" fontSize="26px">
                 Fit Guide
             </Typography>
-            <Typography fontWeight="700" sx={{ fontSize: { lg: '44px', xs: '40px' } }}>
-                Sweat, Smile <br /> and Repeat
+            <Typography fontWeight="700" sx={{ fontSize: { lg: '48px', xs: '40px' }, width: { lg: '800px', xs: '100%' } }}>
+                Your Ultimate Exercise Companion
             </Typography>
-            <Typography fontSize="22px" lineHeight="35px" mb="30px">
-                Check out the most effective exercises
+            <Typography fontSize="22px" lineHeight="35px" mb="30px" sx={{ width: { lg: '1000px', xs: '100%' } }}>
+                Explore over <strong>1300+</strong> new exercises, learn how to perform them <br />correctly, and understand their target muscles.
             </Typography>
-            <Button variant="contained" href="#exercises" sx={{ px: "20px" }}>
+            <Button variant="contained" href="#exercises" sx={{ px: '40px', py: '10px' }}>
                 Exlpore Exercises
             </Button>
             <Typography fontWeight="600" fontSize="200px" color="#555" sx={{ opacity: 0.05, display: { md: 'block', xs: 'none' } }}>

@@ -1,6 +1,10 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    background-color: #f8f9fb85;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {
@@ -12,5 +16,9 @@ body {
 .react-horizontal-scrolling-menu--wrapper {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+
+    .react-horizontal-scrolling-menu--scroll-container {
+        overflow: hidden;
+    }
 }

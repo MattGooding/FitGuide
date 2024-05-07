@@ -1,3 +1,4 @@
+//ExerciseDB options
 export const exerciseOptions = {
     method: 'GET',
     headers: {
@@ -6,6 +7,7 @@ export const exerciseOptions = {
     }
 };
 
+//Youtube Search and Download options
 export const youtubeOptions = {
     method: 'GET',
     headers: {
